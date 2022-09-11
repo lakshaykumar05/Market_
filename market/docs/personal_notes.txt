@@ -1,0 +1,33 @@
+dd
+# Database Commands for Sql_Alchemy
+
+ db.drop_all()  // to drop all Database Tables
+ db.create_all() // To create all new tables
+
+
+
+ # TO add Column to the Database aka CURD commands
+
+ db.session.add(field)
+
+ db.session.commit()
+
+
+# Query
+
+ ModelClassNAME.query.all()
+
+ UNDERCLASSMEN.query.filter_by(Column_name="value")
+
+  UNDERCLASSMEN.query.filter_by(Column_name="value").first()       // Print out magic Method representation here __repr__
+
+
+
+
+
+# Shortcuts
+ cmd + b = for looking inside a class
+ 
+ app is not working
+dockerize it
+use docker for managing depedencies
